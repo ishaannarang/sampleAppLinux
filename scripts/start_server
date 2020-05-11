@@ -1,4 +1,10 @@
 #!/bin/bash
-exit 1
+while true
+do
+echo "Press [CTRL+C] to stop.."
+sleep 1
+done
+
+exit 0
 service httpd start
 
