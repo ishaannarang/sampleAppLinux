@@ -3,6 +3,9 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
+    
+  - source: scripts/test.py
+    destination: scripts/test.py
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
